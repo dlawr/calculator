@@ -40,3 +40,5 @@ function calc(expr) {
   }
   return +expr[expr.length - 1];
 }
+
+module.exports = calc;
